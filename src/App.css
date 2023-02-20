@@ -1,0 +1,53 @@
+html {
+  background-color: #000;
+}
+
+.todo-main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.todo-input {
+  height: 24%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.text-input-area {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-input-textarea {
+  height: 30px;
+  margin: 10px;
+  font-size: 25px;
+  background-color: #333;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.submit-button {
+  color: #000 !important;
+}
+
+.todo-output {
+  height: 70%;
+}
+
+.todo-card-container {
+  /* margin: 0px 10px; */
+  height: 50%;
+}
+
+.todo-card {
+  padding: 10px;
+
+  display: flex;
+}
